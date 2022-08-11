@@ -36,3 +36,25 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
+.face{
+   
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    transform: perspective(600px) rotateY(180deg);
+   
+}
