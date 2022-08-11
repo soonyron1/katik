@@ -1,0 +1,38 @@
+.intro{
+    
+    height: 75vh;
+    width: 100%;      
+}
+.back-ground-1{
+    position: relative;
+    background-image: url(image/Assumption_College_Bangkok_Thailand_โรงเรียนอัสสัมชัญ_บางรัก_05.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 75vh;
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+*{
+    padding: 0;
+}
+.box{
+    border-color: orange;
+    border-style: solid;
+}
+ body{
+    background-color: #202020 ;
+ }
+.image{
+    background-color: #202020 ;
+}
+
+.thai-font{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
