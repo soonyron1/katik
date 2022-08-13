@@ -36,25 +36,76 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+}
 .face{
    
     backface-visibility: hidden;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .front{
-    transform: perspective(600px) rotateY(0deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    transform:rotateY(0deg);
 }
 .back{
-    transform: perspective(600px) rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform:rotateY(180deg);
 }
 .card:hover .front{
-    transform: perspective(600px) rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .card:hover .back{
-    transform: perspective(600px) rotateY(0deg);
+    transform: rotateY(0deg);
 }
 .back{
-    transform: perspective(600px) rotateY(180deg);
+    transform:rotateY(180deg);
    
+}
+.card-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.discordapp.net/attachments/740199309823442944/1004381042465067108/S__12017692.jpg?width=678&height=904);
+    background-size: cover;
+    opacity: 0.4;
+    
+}
+.card-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/08/16/41/plastic-5275168_960_720.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    
+}
+.card-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/19/07/17/wallet-3548021_960_720.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+.overlay-white{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+    
+}
+.text-nik{
+    color: black;
+    z-index: 0;
 }
