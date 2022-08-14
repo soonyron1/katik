@@ -1,19 +1,19 @@
 .intro{
     
-    height: 75vh;
+    height: 60vh;
     width: 100%;      
 }
 .back-ground-1{
     position: relative;
     background-image: url(image/Assumption_College_Bangkok_Thailand_โรงเรียนอัสสัมชัญ_บางรัก_05.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 75vh;
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
 .overlay{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(49, 29, 63, 0.4);
     width: 100%;
     height: 100%;
     font-family: 'Chakra Petch', sans-serif;
@@ -21,13 +21,8 @@
 *{
     padding: 0;
 }
-.box{
-    border-color: orange;
-    border-style: solid;
-}
- body{
-    background-color: #202020 ;
- }
+
+
 .image{
     background-color: #202020 ;
 }
@@ -41,12 +36,14 @@
     width: 300px;
     height: 350px;
     margin: auto;
+    border-radius: 30px;
 }
 .face{
    
     backface-visibility: hidden;
     overflow: hidden;
     transition: 0.7s;
+    border-radius: 30px;
 }
 .front{
     position: absolute;
@@ -67,17 +64,15 @@
 .card:hover .back{
     transform: rotateY(0deg);
 }
-.back{
-    transform:rotateY(180deg);
-   
-}
+
 .card-1{
     position: absolute;
     width: 100%;
     height: 100%;
     background-image: url(https://media.discordapp.net/attachments/740199309823442944/1004381042465067108/S__12017692.jpg?width=678&height=904);
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.3;
+  
     
 }
 .card-2{
@@ -86,7 +81,7 @@
     height: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2020/06/08/16/41/plastic-5275168_960_720.jpg);
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.3;
     
 }
 .card-3{
@@ -95,17 +90,72 @@
     height: 100%;
     background-image: url(https://cdn.pixabay.com/photo/2018/07/19/07/17/wallet-3548021_960_720.jpg);
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 .overlay-white{
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
-    z-index: 0;
+    
     
 }
 .text-nik{
     color: black;
     z-index: 0;
+}
+.back-ground-2{
+    background-color: #202020;
+}
+
+.menu{
+    background-color: #88304E;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.quote{
+    font-family: 'Luxurious Roman', cursive;
+}
+.btn-1{
+    width:175px;
+    height:50px;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 25px;
+    outline: none;
+    background-color: #311D3F;
+    color: #F1EEE9;
+}
+.product{
+    position: relative;
+    background-color: #15133C;
+}
+.orange-word{
+    color: #F1EEE9;
+    margin: auto;
+}
+.box-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #15133C;
+}
+
+body{
+    background-color: #E23E57;
+}
+.btn-2{
+    width:200px;
+    height:50px;
+    border:none;
+    border-radius: 30px;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 25px;
+    outline: none;
+    background-color: #311D3F;
+    color: #F1EEE9;
 }
